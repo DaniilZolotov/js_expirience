@@ -79,18 +79,18 @@ else{
     Условную конструкцию из задания 4, перепишите с помощью Switch Case
 */
 
-//Я не очень понял как решить это задание, ведь в Switch нет операторов больше/меньше, ведь так? 
-
 
 const randomNumber2 = Math.floor(Math.random() * 100);
-console.log("Случайное число равено : ", randomNumber);
-switch(randomNumber2){
-    case  20 :
-        console.log("randomNumber равно 20");
+console.log("Случайное число равно : ", randomNumber2);
+
+switch (true) {
+
+    case randomNumber2<20:  
+        console.log("randomNumber меньше 20");
         break;
-    case randomNumber2  50:
-        console.log("randomNumber равно 50");
+    case randomNumber2>50:
+        console.log("randomNumber1 больше 50");
         break;
     default:
-        console.log("randomNumber не 20 и не 50")
+            console.log("randomNumber не 20 и не 50")
 }
