@@ -57,9 +57,8 @@ const array = [
     'пробыть сутки',
     'Савельич'
 ]
-    let result = array(3)+ array(7)+array(0)+array(8)+array(11)+array(5)+array(9)+array(6)+array(4)+array(1)+array(12)+array(2)+array(10)
 
-   итоговый текст должен быть собран из массива array и результат записать в переменную result
+итоговый текст должен быть собран из массива array и результат записать в переменную result
 */
 
 const array = [
@@ -78,8 +77,7 @@ const array = [
     'Савельич'
 ]
 
-let result = array[3]+ array[7]+array[0]+array[8]+array[11]+array[5]+array[9]+array[6]+array[4]+array[1]+array[12]+array[2]+array[10];
-
+let result = array[3] + " " + array[7]+array[0]+array[8]+ " " +array[11]+ " " +array[5]+ " " +array[9]+ " " + array[6]+array[4]+ " " + array[1] +array[12]+" " + array[2]+ " " +array[10];
 console.log(result)
 
 
