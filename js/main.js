@@ -23,9 +23,8 @@ const changeClass = el => {
 tabs.addEventListener('click', e => {
     const currentTab = e.target.dataset.btn; 
     changeClass(e.target);
-    console.log(e.target.dataset.btn)
     morph.classList.remove('active')
-    if(e.target.dataset.btn==3){
+    if(currentTab==3){
         morph.classList.add('active');
     }
     for(let i = 0; i < content.length; i++){
