@@ -2,11 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>2.Tabs</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <script src="index.js"></script>
+    <h1>TABS</h1>
+    <div class="tabs-block-wrapper">
+        <div id="tabs">
+            <div class="tab-btn active" data-btn="1">1</div>
+            <div class="tab-btn" data-btn="2">2</div>
+            <div class="tab-btn" data-btn="3">3</div>
+        </div>
+        <div id="contents">
+            <div class="content active" data-content="1">Content 1</div>
+            <div class="content" data-content="2">Content 2</div>
+            <div class="content" data-content="3">
+                <div id ="tabs_micro">
+                    <div class ="tab-btn_micro active" id='micro1' data-btn_micro="1">1</div>
+                    <div class ="tab-btn_micro" id="micro2" data-btn_micro="2">2</div>
+                </div>
+                <div id ="contents-micro">
+                    <div class="content_micro" data-content_micro="1">Вы выбрали красную таблетку</div>
+                    <div class="content_micro"  data-content_micro="2" >Вы выбрали синюю таблетку</div>
+            </div>
+        </div>
+    </div>
+    <div class="morphius" id='morph'><img src="assets/morphius.jpg" alt="morphius"></div>
+    <script src="js/main.js"></script>
 </body>
 </html>
